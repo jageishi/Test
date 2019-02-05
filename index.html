@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>test</title>
+    <script>
+      document.addEventListener('DOMContentLoaded', function (event) {
+        document.getElementById('link').addEventListener('click', function (v) {
+          if (window.confirm('開きますか？')) {
+            location.href = 'https://ageage0830.hatenablog.com';
+          }
+          return false;
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <a id="link" href="javascript:void(0)">アゲブログ</a>
+  </body>
+</html>
